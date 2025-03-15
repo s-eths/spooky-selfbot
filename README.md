@@ -1,3 +1,1 @@
-work in progresss.
-
-kinda gave up on it so maybe never will finish
+work in progress, currently on pause for other projects.
