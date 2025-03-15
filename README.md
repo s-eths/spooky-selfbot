@@ -1,3 +1,3 @@
 work in progresss.
 
-massive work in progress (yk what else is massive lowwww taper fadeeee)
+kinda gave up on it so maybe never will finish
