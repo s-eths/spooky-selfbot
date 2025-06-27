@@ -12,7 +12,7 @@ class help(commands.Cog):
     @commands.group(invoke_without_command = True)
     async def help(self, ctx):
         await ctx.message.delete()
-        await ctx.send(f"**spooky.wtf - Discord Self-Bot**\n\n> **[!]** Help - Sub Commands\n\n`{data['prefix']}help ai`\n`{data['prefix']}help config`\n`{data['prefix']}help crypto`\n`{data['prefix']}help custom`\n`{data['prefix']}help encode`\n`{data['prefix']}help exploit`\n`{data['prefix']}help fun`\n`{data['prefix']}help image`\n`{data['prefix']}help music`\n`{data['prefix']}help roleplay`\n`{data['prefix']}help social`\n`{data['prefix']}help text`\n`{data['prefix']}help trolling`\n`{data['prefix']}help useful`\n\n-# Created by @ s.eths・v{data['version']}")
+        await ctx.send(f"**spooky.wtf - Discord Self-Bot**\n\n> **[!]** Help - Sub Commands\n\n`{data['prefix']}help ai`\n`{data['prefix']}help config`\n`{data['prefix']}help crypto`\n`{data['prefix']}help encode`\n`{data['prefix']}help exploit`\n`{data['prefix']}help fun`\n`{data['prefix']}help image`\n`{data['prefix']}help music`\n`{data['prefix']}help roleplay`\n`{data['prefix']}help social`\n`{data['prefix']}help text`\n`{data['prefix']}help trolling`\n`{data['prefix']}help useful`\n\n-# Created by @ s.eths・v{data['version']}")
     
     @help.command()
     async def ai(self, ctx):
@@ -28,11 +28,6 @@ class help(commands.Cog):
     async def crypto(self, ctx):
         await ctx.message.delete()
         await ctx.send(f"**spooky.wtf - Discord Self-Bot**\n\n> **[!]** Help - Crypto\n\n`{data['prefix']}crypto bitcoin/btc`\n`{data['prefix']}crypto ethereum/eth`\n`{data['prefix']}crypto solana/sol`\n`{data['prefix']}crypto dogecoin/doge`\n`{data['prefix']}crypto litecoin/ltc`\n`{data['prefix']}crypto monero/xmr`\n\n-# Created by @ s.eths・v{data['version']}")
-
-    @help.command()
-    async def custom(self, ctx):
-        await ctx.message.delete()
-        await ctx.send(f"**spooky.wtf - Discord Self-Bot**\n\n> **[!]** Help - Custom\n\n`{data['prefix']}cca`\n`{data['prefix']}jimmysmother`\n`{data['prefix']}shadow`\n\n-# Created by @ s.eths・v{data['version']}")
 
     @help.command()
     async def encode(self, ctx):
