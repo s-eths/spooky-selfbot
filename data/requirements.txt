@@ -1,0 +1,14 @@
+easyocr
+opencv-python
+numpy
+requests
+faker
+Pillow
+moviepy
+beautifulsoup4
+pyfiglet
+upsidedown
+googletrans==4.0.0-rc1
+gTTS
+dateparser
+pytz

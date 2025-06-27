@@ -1,0 +1,11 @@
+{
+    "version": 1.2,
+    "prefix": ",",
+    "counter": 0,
+    "nword_counter": 0,
+    "whitelisted": [],
+    "tokens": {
+        "token": "",
+        "vc_token": ""
+    }
+}
